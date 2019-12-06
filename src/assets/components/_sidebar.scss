@@ -1,0 +1,19 @@
+.sidebar-group {
+  width: 300px;
+  padding: 0px 40px;
+  &.sidebar-group-gray {
+    background-color: $secondary;
+  }
+  .sidebar-group-item {
+    padding: 24px 0px;
+    .title {
+      font-size: 20px;
+      color: #000000;
+    }
+    .selceted {
+      width: 220px;
+      height: 40px;
+      border-radius: 0;
+    }
+  }
+}
